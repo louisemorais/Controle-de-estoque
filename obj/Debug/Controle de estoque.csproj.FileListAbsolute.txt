@@ -1,0 +1,14 @@
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.exe.config
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.exe
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.pdb
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.csproj.AssemblyReference.cache
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.csproj.CoreCompileInputs.cache
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.exe
+C:\Users\louis\OneDrive\Área de Trabalho\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.pdb
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.exe.config
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.exe
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\bin\Debug\Controle de estoque.pdb
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.csproj.AssemblyReference.cache
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.csproj.CoreCompileInputs.cache
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.exe
+C:\Users\louis\OneDrive\Área de Trabalho\faculdade\Análise e Desenvolvimento de sistemas\PTIs\Pti-algoritmo-facul\Controle de estoque\obj\Debug\Controle de estoque.pdb
