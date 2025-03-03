@@ -15,12 +15,16 @@ namespace Controle_de_estoque
             List<Produtos> listaproduto = new List<Produtos>();
             Boolean rodando = true;
             while (rodando) {
-                exibir("| [1] Novo            |");
-                exibir("| [2] Listar Produto  |");
-                exibir("| [3] Remover Produto |");
-                exibir("| [4] Entrada         |");
-                exibir("| [5] Saída           |");
-                exibir("| [0] Sair            |");
+                exibir(" ");
+                exibir("CONTROLE DE ESTOQUE LOJA DE ARTE");
+                exibir("+-------------------------+");
+                exibir("  | [1] Novo            |");
+                exibir("  | [2] Listar Produto  |");
+                exibir("  | [3] Remover Produto |");
+                exibir("  | [4] Entrada         |");
+                exibir("  | [5] Saída           |");
+                exibir("  | [0] Sair            |");
+                exibir("+-------------------------+");
                 exibir("selecione a sua opção:");
                 int Call = int.Parse(Console.ReadLine());
 
@@ -31,41 +35,44 @@ namespace Controle_de_estoque
                         string produto = Console.ReadLine();
                         exibir("diga a quantidade:");
                         int quantidade = int.Parse(Console.ReadLine());
-                        exibir("diga o preço");
+                        exibir("diga o preço: ");
                         double preco = double.Parse(Console.ReadLine());
                         exibir("digite o tipo:");
-                        exibir("[1] Limpeza");
-                        exibir("[2] Eletrônica");
-                        exibir("[3] Alimento");
-                        exibir("[4] Vestes");
+                        exibir("[1] Bullet Journal");
+                        exibir("[2] Pincéis");
+                        exibir("[3] Lápis");
+                        exibir("[4] Tintas");
                         exibir("[5] Outros");
                         int call2 = int.Parse(Console.ReadLine());
                         Enum tipagem;
+
                         switch (call2)
                         {
                             case 1:
-                                tipagem = Produtos.TipoProduto.LIMPEZA;
+                                tipagem = Produtos.TipoProduto.BULLET_JOURNAL;
                                 break;
 
                             case 2:
-                                tipagem = Produtos.TipoProduto.ELETRONICA;
+                                tipagem = Produtos.TipoProduto.PINCEIS;
                                 break;
                             case 3:
-                                tipagem = Produtos.TipoProduto.ALIMENTO;
+                                tipagem = Produtos.TipoProduto.LAPIS;
                                 break;
                             case 4:
-                                tipagem = Produtos.TipoProduto.VESTES;
+                                tipagem = Produtos.TipoProduto.TINTAS;
                                 break;
                             default:
                                 tipagem = Produtos.TipoProduto.INDEFINIDO;
                                 break;
                         }
+                        exibir(" ");
                         listaproduto.Add(new Produtos(produto, quantidade, preco, tipagem));
                         break;
 
                     case 2: //lista
                         for (int i = 0; i < listaproduto.Count; i++)
                         {
+                            exibir(" ");
                             listaproduto[i].mostrar(i + 1);
                         }
                         break;

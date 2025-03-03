@@ -23,14 +23,14 @@ namespace Controle_de_estoque
         public enum TipoProduto
         {
             INDEFINIDO,
-            LIMPEZA,
-            ELETRONICA,
-            ALIMENTO,
-            VESTES
+            BULLET_JOURNAL,
+            LAPIS,
+            TINTAS,
+            PINCEIS
         }
         public void mostrar(int i)
         {
-            Console.WriteLine( i+" .produtos: "   + nome       +
+            Console.WriteLine( i+ " .produtos: "   + nome       +
                                " | quantidade: " + quantidade +
                                " | preço: "      + preco      +
                                " | tipo: "       + tipo );
