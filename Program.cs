@@ -70,12 +70,20 @@ namespace Controle_de_estoque
                         break;
 
                     case 2: //lista
-                        for (int i = 0; i < listaproduto.Count; i++)
-                        {
+                        if (listaproduto.Count==0) {
                             exibir(" ");
-                            listaproduto[i].mostrar(i + 1);
+                            exibir(" não há nenhum produto para listar! ");
                         }
-                        break;
+                        else
+                        {
+                            for (int i = 0; i < listaproduto.Count; i++)
+                            {
+                                exibir(" ");
+                                listaproduto[i].mostrar(i + 1);
+                            }
+                            
+                        }
+                            break;
                     case 3: //deleção de produto
                         exibir("digite a posição do item para remover:");
                         int valor_remover = int.Parse(Console.ReadLine());
